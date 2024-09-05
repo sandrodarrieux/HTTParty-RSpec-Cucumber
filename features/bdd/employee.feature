@@ -21,3 +21,9 @@ Funcionalidade: Pesquisar Funcionarios
         Dado que o usuario atualize informacoes de um funcionario
         Quando ele enviar as novas informacoes
         Entao essas informacoes serao atualizadas
+
+    @cenario_quatro
+    Cenario: Deletar funcionario
+        Dado que o usuario delete um funcionario
+        Quando ele enviar a identificacao unica
+        Entao esse funcionario sera deletado do sistema
